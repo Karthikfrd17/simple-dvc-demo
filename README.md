@@ -1,9 +1,12 @@
+'''cmd
 create env -- conda create -n wineq python=3.7 -y
-
+'''
+'''cmd
 activate env -- activate wineq
-
+'''
+'''cmd
 created a requirements.txt file
-
+'''
 installed the requirements pip install -r requirements.txt  
 
 add the csv file
@@ -18,4 +21,11 @@ git add .
 
 git commit - m "first commit"
 
+one liner updates for readme
+git add . && git commit -m "update Readme.md"
 
+git remote add origin https://github.com/Karthikfrd17/simple-dvc-demo.git
+
+git branch -M main
+
+git push -u origin main
