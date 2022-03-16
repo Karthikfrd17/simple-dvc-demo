@@ -1,12 +1,15 @@
-'''cmd
+'''bash
 create env -- conda create -n wineq python=3.7 -y
 '''
-'''cmd
+
+'''bash
 activate env -- activate wineq
 '''
-'''cmd
+
+'''bash
 created a requirements.txt file
 '''
+
 installed the requirements pip install -r requirements.txt  
 
 add the csv file
