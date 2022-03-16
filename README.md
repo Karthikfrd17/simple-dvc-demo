@@ -31,4 +31,4 @@ git remote add origin https://github.com/Karthikfrd17/simple-dvc-demo.git
 
 git branch -M main
 
-git push -u origin main
+git push origin main
